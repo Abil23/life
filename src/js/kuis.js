@@ -26,7 +26,7 @@ const startQuiz = () => {
   //   cat = category.value,
   //   diff = difficulty.value;
   loadingAnimation();
-  const url = `/life/soal.html`;
+  const url = `https://abil23.github.io/life/soal.html`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
