@@ -1,6 +1,6 @@
 
 // Search bar
-const product =[
+const product = [
     {
         id: 1,
         image: 'src/img/buku.webp',
@@ -9,7 +9,7 @@ const product =[
         chapter: 'Tema 02',
         type:'Modul',
         description: 'Berisi tentang informasi materi secara menyeluruh',
-        link: 'src/file/materi.pdf',
+        link: 'https://drive.google.com/file/d/1_ivvQfXFQTwhWMmhNHLLyJWkZlxh5bRJ/view?usp=drive_link',
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const product =[
         chapter: 'Tema 02',
         type: 'Video',
         description: 'Berisi tentang penjelasan materi dalam bentuk video',
-        link: '',
+        link: 'https://drive.google.com/file/d/1g0m0XAUKRRy9YhdSwws7cXQQl0QLjvz9/view?usp=drive_link',
     },
 ]
 
