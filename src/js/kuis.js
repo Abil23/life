@@ -26,7 +26,7 @@ const startQuiz = () => {
   //   cat = category.value,
   //   diff = difficulty.value;
   loadingAnimation();
-  const url = `/life/soal.html`;
+  const url = `/soal.html`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
@@ -91,7 +91,7 @@ const showQuestion = (question) => {
 const startTimer = (time) => {
   timer = setInterval(() => {
     if (time === 3) {
-      playAdudio("countdown.mp3");
+      playAdudio("src/sound/countdown.mp3");
     }
     if (time >= 0) {
       progress(time);
