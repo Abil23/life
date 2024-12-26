@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materi - LIFE</title>
+    <title>LIFE - Legacy of Islamic Fusion Empires</title>
     <link rel="icon" type="image/png" href="src/img/LOGO.png">
     <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="src/input.css">
@@ -12,15 +12,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
     </style>
-</head>
-<body>
+<body class="">
 
     <!-- Header Start -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="index.html" class="font-bold text-4xl text-primary block py-6">LIFE</a>
+                    <a href="/index.html" class="font-bold text-4xl text-primary block py-6">LIFE</a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -57,88 +56,24 @@
     </header>
     <!-- Header End -->
 
-    <!-- Materi Section Start -->
-     <section id="materi" class="pt-36">
-        <div class="bg-slate-50 text-white py-4">
-            <div class="container">
-                <div class="mx-auto flex justify-between items-center ">
-                    <h1 class="text-3xl font-bold text-dark">Materi</h1>
-                    <img class="w-20" src="src/img/book.png" alt="Buku">
-                </div>
-            </div>
+    <!-- 404 Page Start -->
+    <div class="grid h-screen place-content-center bg-white px-4">
+        <div class="text-center">
+          <h1 class="text-9xl font-black text-gray-200">404</h1>
+      
+          <p class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">Uh-oh!</p>
+      
+          <p class="mt-4 text-gray-500">Halaman tidak tersedia.</p>
+      
+          <a
+            href="index.html"
+            class="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
+          >
+            Kembali ke Beranda
+          </a>
         </div>
-        <div class="container mx-auto mt-8">
-            <div class="flex flex-col md:flex-row">
-                <!-- <aside class="w-full md:w-1/4 p-4">
-                    <div class="md:hidden">
-                        <button class="bg-dark text-white px-4 py-2 rounded-lg flex items-center relative" onclick="document.getElementById('filters').classList.toggle('hidden')">
-                            <i class="fas fa-filter mr-2"></i>
-                            Filters
-                        </button>
-                        <div class="hidden mt-4 bg-white p-4 rounded shadow relative" id="filters">
-                            <div class="mb-4 mt-2">
-                                <h3 class="font-semibold mb-2 text-dark">Subjek</h3>
-                                <div>
-                                    <label class="block mb-2">
-                                        <input class="mr-2" type="checkbox">
-                                        Typing
-                                    </label>
-                                    <label class="block mb-2">
-                                        <input class="mr-2" type="checkbox">
-                                        Typing
-                                    </label>
-                                    <label class="block mb-2">
-                                        <input class="mr-2" type="checkbox">
-                                        Typing
-                                    </label>
-                                    <label class="block mb-2">
-                                        <input class="mr-2" type="checkbox">
-                                        Typing
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hidden md:block">
-                        <h2 class="text-xl font-bold mb-4">Filters</h2>
-                        <div class="mb-4">
-                            <h3 class="font-semibold mb-2">Subjek</h3>
-                            <div>
-                                <label class="block mb-2">
-                                    <input class="mr-2" type="checkbox">
-                                    Typing
-                                </label>
-                                <label class="block mb-2">
-                                    <input class="mr-2" type="checkbox">
-                                    Typing
-                                </label>
-                                <label class="block mb-2">
-                                    <input class="mr-2" type="checkbox">
-                                    Typing
-                                </label>
-                                <label class="block mb-2">
-                                    <input class="mr-2" type="checkbox">
-                                    Typing
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </aside> -->
-                <section class="w-full md:3/4 p-4 pb-32">
-                    <div class="flex justify-between items-center mb-4">
-                        <div class="relative flex w-full mb-6">
-                            <input class="w-full p-2 border border-gray-300 rounded" placeholder="Cari" type="text" id="SearchBar" name="SearchBar"/>
-                            <i class="fas fa-search absolute right-3 top-3 text-gray-400"></i>
-                        </div>
-                    </div>
-                    <div id="root" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    </div>
-                </div>
-                </section>
-            </div>
-        </div>
-     </section>
-    <!-- Materi Section End -->
+      </div>
+    <!-- 404 Page End -->
 
     <!-- Footer Start -->
     <footer id="kontak" class="pt-4 pb-12 bg-dark">
@@ -205,9 +140,7 @@
      </footer>
     <!-- Footer End -->
 
-
-<script src="src/js/hamburger.js"></script>
+<script src="src/js/script.js"></script>
 <script src="src/js/cdn-tailwind.js"></script>
-<script src="src/js/searchengine.js"></script>
 </body>
 </html>
