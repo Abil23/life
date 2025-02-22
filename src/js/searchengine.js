@@ -9,7 +9,7 @@ const product = [
         chapter: 'Tema 02',
         type:'Flip Book & E-Book',
         description: 'Berisi tentang informasi materi secara menyeluruh',
-        link: 'bahan-ajar.html',
+        link: "bahan-ajar.html",
     },
     {
         id: 2,
