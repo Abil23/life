@@ -4,12 +4,12 @@ const product = [
     {
         id: 1,
         image: 'src/img/buku.webp',
-        title: 'Modul',
+        title: 'Bahan Ajar',
         grade: 'Kelas 8 SMP',
         chapter: 'Tema 02',
-        type:'Modul',
+        type:'Flip Book & E-Book',
         description: 'Berisi tentang informasi materi secara menyeluruh',
-        link: 'https://drive.google.com/file/d/1_ivvQfXFQTwhWMmhNHLLyJWkZlxh5bRJ/view?usp=drive_link',
+        link: 'bahan-ajar.html',
     },
     {
         id: 2,
