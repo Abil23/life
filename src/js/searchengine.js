@@ -9,7 +9,7 @@ const product = [
         chapter: 'Tema 02',
         type:'Flip Book & E-Book',
         description: 'Berisi tentang informasi materi secara menyeluruh',
-        link: "bahan-ajar.html",
+        link: 'bahan-ajar.html',
     },
     {
         id: 2,
@@ -39,14 +39,14 @@ const displayItem = (items)=> {
     document.getElementById('root').innerHTML = items.map((item)=>{
         var {image, title, grade, chapter, description, type, link} = item;
         return(
-            `<div class="bg-white p-4 rounded-md shadow-lg cursor-pointer hover:-translate-y-2 duration-300 space-y-5">
+            `<div class="bg-white rounded-md shadow-lg cursor-pointer hover:-translate-y-2 duration-300 space-y-5">
                     <a href='${link}'>
                         <div class="font-Josefin">
-                            <img class="w-full h-32 object-cover mb-4 rounded-md" height="100" width="100" src="${image}" alt="Materi berbasis buku">
-                            <h3 class="text-xl font-bold mb-2">${title}</h3>
-                            <p class="text-gray-600 mb-2">${grade} | ${chapter} | ${type} </p>
+                            <img class="w-full h-48 object-cover rounded-t-lg" height="200" width="600" src="${image}" alt="Materi berbasis buku">
+                            <h3 class="text-xl font-bold mb-2 ml-4 mt-8">${title}</h3>
+                            <p class="text-gray-600 mb-2 ml-4">${grade} | ${chapter} | ${type} </p>
                         </div>
-                    <p class="text-gray-700">${description}</p>
+                    <p class="text-gray-700 ml-4 mb-4">${description}</p>
                     </a>
                 </div>`
         )
